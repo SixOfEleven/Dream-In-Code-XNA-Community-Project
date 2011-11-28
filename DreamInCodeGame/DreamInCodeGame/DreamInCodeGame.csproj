@@ -83,6 +83,10 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\DreamInCodeLibrary\DreamInCodeLibrary.csproj">
+      <Project>{D015EE39-B2F0-4784-AD1D-F9E8D85C6E8E}</Project>
+      <Name>DreamInCodeLibrary</Name>
+    </ProjectReference>
     <ProjectReference Include="..\DreamInCodeGameContent\DreamInCodeGameContent.contentproj">
       <Name>DreamInCodeGameContent</Name>
       <XnaReferenceType>Content</XnaReferenceType>
